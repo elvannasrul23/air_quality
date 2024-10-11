@@ -18,7 +18,7 @@ data['day'] = data['date'].dt.day
 
 # Streamlit sidebar
 st.sidebar.header('Huairou Air Quality Dashboard')
-st.sidebar.image("Huairou.png")
+st.sidebar.image("Dasboard/Huairou.png")
 
 # **Rentang Tanggal**
 st.sidebar.subheader('Filter Rentang Tanggal')
