@@ -6,7 +6,7 @@ from matplotlib.colors import ListedColormap
 import streamlit as st
 
 # Membaca dataset
-data = pd.read_csv('main.csv')
+data = pd.read_csv('Dasboard/main.csv')
 
 # Mengonversi kolom tahun, bulan, tanggal menjadi tipe datetime
 data['date'] = pd.to_datetime(data[['year', 'month', 'day']])
